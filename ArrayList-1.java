@@ -11,8 +11,9 @@ public class Main{
      food.add("hotdogs");
       
      food.set(0, "Sushi");
-     
-     for(int i=0; i<food.size();i++){
+     food.remove(2);
+     //food.clear();-----> clear the whole output data   
+        for(int i=0; i<food.size();i++){
          System.out.println(food.get(i));
      }
      } 
